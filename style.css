@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(255, 0, 0, 0.315);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color: black;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+.paragraph{
+    display: flex;
+    font-size: 1rem;
+    font-style: oblique;
+    padding: 1.3rem;
+    margin: 1rem;
+}
+.card1,.card2,.card3{
+    margin: 1rem;
+    padding: 2rem;
+    background-color: aliceblue;
+}
+a{
+    text-decoration: none;
+    font-style: normal;
+    background-color: red;
+    color: white;
+    padding: .4rem;
+    font-size: 1rem;
+    border-radius: 2.7rem;
+    margin-bottom: 3rem;
+}

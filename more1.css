@@ -1,0 +1,64 @@
+                       *{
+                        margin: 0;
+                        padding: 0;
+                        left: 0;
+                        right: 0;
+                       }
+                       
+                       body{
+                        color: white;
+                        font-family: Arial, Helvetica, sans-serif;
+                        margin: 0;
+                        padding: 0;
+                       }
+                       .first{
+                            background: url(/read1.PNG);
+                            background-size: cover;
+                            box-sizing: border-box;
+                            height: 20rem;
+                            text-align: center;
+                            padding-top: 3rem;
+                        }   
+                        .first h1{
+                            font-size: 5rem;
+                            font-style: italic;
+                            font-weight: bold;
+                        }
+                        .first h2{
+                            font-size: medium;
+                            padding-left: 5rem;
+                            padding-top: 1rem;
+                        }
+                        .second{
+                            background-color:rgb(49, 41, 41);
+                            box-sizing: border-box;
+                            display: flex;
+                            text-align: center;
+                           color: yellow;
+                        }  
+                        .third{
+                            background-color: black;
+                            box-sizing: border-box;
+                            display: flex;
+                        }     
+                        p{
+                            padding: 6rem;
+                        }                                           
+                        .card1,.card2,.card3{
+                            padding-right: 10rem;
+                            padding-top: 5rem;
+                            padding-bottom: 5rem;
+                        }
+                        .card1{
+                            padding-left: 6rem;
+                        }
+                        .card4{
+                            background-color: rgb(30, 29, 29);
+                            color: white;
+                        }
+                        .m{
+                            text-align: center;
+                            padding-top: .5rem;
+                            padding-bottom: .5rem;
+
+                        }

@@ -12,7 +12,7 @@
                         padding: 0;
                        }
                        .first{
-                            background: url(/read1.PNG);
+                            background: url(/images/read1.PNG);
                             background-size: cover;
                             box-sizing: border-box;
                             height: 20rem;
@@ -44,8 +44,8 @@
                         p{
                             padding: 6rem;
                         }                                           
-                        .card1,.card2,.card3{
-                            padding-right: 10rem;
+                        .card1,.card2,.card3,.card5{
+                            padding-right: 5rem;
                             padding-top: 5rem;
                             padding-bottom: 5rem;
                         }
@@ -62,3 +62,8 @@
                             padding-bottom: .5rem;
 
                         }
+                        h3{
+                            font-size: .8rem;
+                            color: blue;
+                            margin-top: .5rem;
+                         }

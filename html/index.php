@@ -6,16 +6,16 @@
       href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css"
       rel="stylesheet"
     />
-      <link rel="stylesheet" href="/style/main.css"/>
+      <link rel="stylesheet" href="main1.css"/>
    </head>
 <body>
     <p>
     <nav class="navbar">
         <h1>Online Job Project</h1>
         <ul class="nav-links" style="list-style: none;">
-            <li><a href="/html/index.html" id="link">Home</a></li>
-            <li><a href="/html/contact.html" id="link">Contact Me</a></li>
-            <li><a href="/html/login.html" id="button">Login</a></li>
+            <li><a href="index.php" id="link">Home</a></li>
+            <li><a href="contact.php" id="link">Contact Me</a></li>
+            <li><a href="login.php" id="button">Login</a></li>
         </ul>
         <!-- <div class="burger">
             <i class="fas fa-bars"></i>
@@ -23,11 +23,11 @@
     </nav>
     <div class="project">
        <div class="card">
-        <img src="/images/blog.PNG" alt="" width="80%" height="70%"/>
+        <img src="images/blog.PNG" alt="" width="80%" height="70%"/>
         <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptate iste, quisquam dolorem ullam iusto non quas, velit iure aspernatur expedita itaque possimus dolore sint ipsam veritatis voluptas a voluptates! possimus dolore sint ipsam
         </p>
-        <a href="/html/blog.html" id="click">Read more</a>
+        <a href="blog.php" id="click">Read more</a>
        </div>
        <div class="text">
         <h3>Available Online Job...</h3>
@@ -40,7 +40,7 @@
             <li>Make & edit Videos</li>
             <li>Translating</li>
         </ul>
-        <a href="/html//applicationform.html" style="background-color:blue ; padding-left: 1.2rem; padding-right: 1.2rem;padding-top: .7rem;padding-bottom: .7rem;margin-left: 2rem;color: white;font-weight: bold;text-decoration: none;border-radius: 20px;">Apply Now!</a>
+        <a href="applicationform.php" style="background-color:blue ; padding-left: 1.2rem; padding-right: 1.2rem;padding-top: .7rem;padding-bottom: .7rem;margin-left: 2rem;color: white;font-weight: bold;text-decoration: none;border-radius: 20px;">Apply Now!</a>
        </div>
     </div>
     </p>

@@ -1,0 +1,121 @@
+/* body{
+    background-color:rgb(14, 13, 13);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+h1{
+    padding-bottom: 4rem;
+    padding-left: 2.5rem;
+}
+.form{
+    background-color:rgb(53, 48, 48);
+    padding: 3rem 4rem;
+    margin: 2rem 25rem;
+    box-shadow: .6rem .4rem .6rem .7rem black;
+}
+input{
+    padding: .6rem .6rem;
+    margin-bottom: 1rem;
+    border: none;
+}
+button{
+    background-color: rgb(10, 10, 233); 
+    border-radius: 3rem;
+    border: none;
+    padding: .8rem 1.8rem .8rem 1.8rem;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 3rem;
+    margin-top: 1rem;
+} */
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url() no-repeat;
+    background-size: cover;
+      background-image: url('image4.jpg');
+  }
+  
+  .wrapper {
+    width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #050525;
+      font-weight: 700;
+  }
+  
+  .wrapper h4 {
+    float: left;
+    font-size: 30px;
+    border-bottom: 4px solid #191970;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .wrapper p {
+    float: left;
+    font-size: 20px;
+  
+  }
+  
+  
+  .input-group {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #191970;
+  }
+  
+  .fa {
+    width: px;
+    float: left;
+    text-align: center;
+  }
+  
+  .input-group input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    float: left;
+    margin: 0 10px;
+  }
+  
+  .button {
+    width: 100%;
+    padding: 8px;
+    color: #ffffff;
+    background: none #191970;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    cursor: pointer;
+  
+      
+  }
+   .button {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      margin: 0px;
+      justify-content: space-around;
+   }
+  
+   .button input{
+      background-color: black;
+      color: white;
+      font-family: cursive;
+      font-size: 15px;
+   }
+  
+  
+  

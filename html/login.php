@@ -1,3 +1,33 @@
+<?php
+session_start();
+if(isset($_POST['sub'])){
+    $fname=$_POST['fname'];
+    $email=$_POST['email'];
+    $password= $_POST['password'];
+    if(fname !="" && email !=""  && password !=""){
+    $query="SELECT * FROM signup WHERE fname='$fname',email='$email' AND password='$password'";
+$result=mysqli_query($con,$query);
+$arr=array();
+
+if(mysql_fetch_array($result) != $arr){
+    $_SESSION['fname']=$_POST['fname'];
+    $_SESSION['email']=$_POST['email'];
+    $_SESSION['password']=$_POST['password'];
+    header("location: dashboard.php");
+}}
+else{
+    echo "<script>
+    if(alert('wrong password/email')){
+        ".header("Refresh:0.1;url=login.php")."
+    }
+    </script>";
+}
+}
+
+
+
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -71,13 +101,13 @@ button a{
         <h1>Login Form</h1>
         <form>
         <label for="">First Name:</label>    
-        <input type="text" name="Name" id="" placeholder="Enter first name"/></br>
+        <input type="text" name="Name" id="" placeholder="Enter first name" name="fname"/></br>
         <label for="">Last Name:</label>    
         <input type="text" name="Name" id="" placeholder="Enter second name"/></br>
         <label for="">Email adress:</label>
-        <input type="email" name="" id="" placeholder=" Enter Email Address"/></br>
+        <input type="email" name="" id="" placeholder=" Enter Email Address" name="email"/></br>
         <label for="">Password:</label>
-        <input type="password" name="password" id="password" placeholder="Enter Password"></br>
+        <input type="password" name="password" id="password" placeholder="Enter Password" name="sub"></br>
         <button><a href="dashboard.php">Login</a></button>
         </form>
         <div class="line"></div>

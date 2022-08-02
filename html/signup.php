@@ -1,3 +1,30 @@
+<?php
+require "connection.php";
+if(isset($_POST['sub'])){
+    $fname=$_POST['fname'];
+  
+    $email=$_POST['email'];
+    $password= $_POST['password'];
+    $query="INSERT INTO signup(fname,email,password)VALUES(' $fname','$email','$password')";
+$result=mysqli_query($con,$query);
+if($result){
+   
+
+ echo '<script>
+ alter("successfully");
+ </script>';
+ header("location:dashboard.php");
+}
+}
+
+
+
+
+
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,7 +62,7 @@ body{
 input[type=password]{
     font-size: 1.3rem;
 }
-input[type=email],input[type=password],input[type=name]{
+input[type=email],input[type=password],input[type=text]{
     width:70%;
 
     padding-left: 1.2rem;
@@ -82,14 +109,14 @@ input[type=email],input[type=password],input[type=name]{
 </head>
 <body>
     <nav class="page">
-        <form class="form" id="form">
+        <form class="form" id="form" method="post">
                <h3>Signup form</h3>
-               <input type="name" placeholder="Last Name" id="name" >
-               <input type="name" placeholder="First Name" id="name" >
-               <input type="email" placeholder="Email adress" id="email" >
-               <input type="password" placeholder="Password " id="password">
-               <input type="password" placeholder="Confirm password"  id="password1">
-               <button type="submit">Signup</button>
+               <input type="text" placeholder="Last Name" id="name" name="fname">
+               <input type="text" placeholder="First Name" id="name"name="lname">
+               <input type="email" placeholder="Email adress" id="email" name="email">
+               <input type="password" placeholder="Password " id="password" name="password">
+               <input type="password" placeholder="Confirm password"  id="password1" name="password">
+               <button type="submit" name="sub">Signup</button>
         </form>
     </nav>
 </body>

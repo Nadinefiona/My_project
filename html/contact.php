@@ -22,7 +22,7 @@ h4{
     font-size: 1.4rem;
     text-align: center;
     color:white;
-    padding-top: 2rem;
+    padding-top: 1rem;
     font-style: normal;
     font-weight: 620;
 }
@@ -31,7 +31,6 @@ h4{
   color: white;
 }
 .pagee{
-
   display: flex;
 }
 .message{
@@ -96,18 +95,18 @@ margin-left: 4rem;
   text-align: center;
   font-weight: bold;
   margin-bottom: 4rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   display: flex;
 }
 .icon{
     padding-left: 1.2rem;
-    color: blue;
+    color: white;
     font-size: 2rem;
 }
 .copyright{
   text-align: center;
   font-weight: lighter;
-  margin-top: 30px;
+  margin-top: 0rem;
 }
 
 </style>
@@ -132,7 +131,7 @@ margin-left: 4rem;
                 <div class="text5">
                     Tel:+250787599080 
                     Email:nadinefiona9@gmail.com
-                </div>
+                </div>`
                 <div class="page">
                     <div class="icon"><i class="fab fa-twitter"></i></div>
                     <div class="icon"><i class="fab fa-instagram"></i></div>

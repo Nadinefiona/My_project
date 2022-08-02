@@ -536,7 +536,7 @@ td .status {
                 </li>
 
                 <li style="margin-top: 15rem;">
-                    <a href=""><i class="fas fa-sign-out"></i>
+                    <a href="index.php"><i class="fas fa-sign-out"></i>
                     <span>Logout</span></a>
                 </li>
             </ul>

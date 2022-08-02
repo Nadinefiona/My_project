@@ -14,6 +14,7 @@
         <h1>Online Job Project</h1>
         <ul class="nav-links" style="list-style: none;">
             <li><a href="index.php" id="link">Home</a></li>
+            <li><a href="more1.php" id="link">Services</a></li>
             <li><a href="contact.php" id="link">Contact Me</a></li>
             <li><a href="login.php" id="button">Login</a></li>
         </ul>
@@ -23,7 +24,7 @@
     </nav>
     <div class="project">
        <div class="card">
-        <img src="images/blog.PNG" alt="" width="80%" height="70%"/>
+        <img src="blog.PNG" alt="" width="80%" height="70%"/>
         <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptate iste, quisquam dolorem ullam iusto non quas, velit iure aspernatur expedita itaque possimus dolore sint ipsam veritatis voluptas a voluptates! possimus dolore sint ipsam
         </p>
